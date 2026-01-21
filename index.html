@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DSA Manthon – 30 Days DSA Sheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #fff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin: 4px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .intro {
+      background: #020617;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+    .intro h2 {
+      margin-top: 0;
+      color: #60a5fa;
+    }
+    .days-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .day-card {
+      background: #020617;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .day-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    }
+    .day-card h3 {
+      margin-top: 0;
+      color: #93c5fd;
+    }
+    .day-card ul {
+      padding-left: 18px;
+    }
+    .day-card a {
+      display: inline-block;
+      margin-top: 8px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .day-card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #020617;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <!-- NAVBAR -->
+<nav style="background:#020617; padding:14px 20px; display:flex; align-items:center; justify-content:space-between;">
+  <div style="display:flex; align-items:center; gap:12px;">
+    <img src="logo.png" alt="DSA Manthon Logo" style="width:45px; height:45px; border-radius:50%; background:#fff;" />
+    <strong style="font-size:20px; color:#60a5fa;">DSA Manthon</strong>
+  </div>
+  <div style="display:flex; gap:18px; font-size:14px;">
+    <a href="#day1" style="color:#e5e7eb; text-decoration:none;">Day 1</a>
+    <a href="#sheet" style="color:#e5e7eb; text-decoration:none;">30 Days Sheet</a>
+    <a href="#about" style="color:#e5e7eb; text-decoration:none;">About</a>
+    <a href="#youtube" style="color:#e5e7eb; text-decoration:none;">YouTube</a>
+  </div>
+</nav>
+
+<!-- HERO / DAY 1 FULL WIDTH -->
+<section id="day1" style="width:100%; background:linear-gradient(135deg,#1e3a8a,#2563eb); padding:40px 20px;">
+  <div style="max-width:1200px; margin:auto;">
+    <h1 style="margin-top:0; font-size:32px;">Day 1 – One Day One Question</h1>
+    <p style="font-size:16px; max-width:800px;">
+      Problem: <strong>Find Maximum and Minimum Element in an Array</strong><br/>
+      Understand array traversal and basic comparisons. This is the foundation of DSA.
+    </p>
+    <div style="margin-top:20px;">
+      <a href="#" style="background:#020617; padding:10px 16px; border-radius:8px; color:#38bdf8; text-decoration:none; margin-right:10px;">💻 Code Solution</a>
+      <a href="#" style="background:#020617; padding:10px 16px; border-radius:8px; color:#38bdf8; text-decoration:none;">🎥 Video Solution</a>
+    </div>
+  </div>
+</section>
+
+  <div class="container" id="sheet">
+    <!-- INTRO -->
+    <div class="intro" id="about">
+      <h2>About This Sheet</h2>
+      <p>
+        Welcome to <strong>DSA Manthon</strong> 🚀. This 30 Days DSA Sheet is specially designed for beginners
+        and intermediate learners who want to master Data Structures and Algorithms step by step.
+        Every day includes:
+      </p>
+      <ul>
+        <li>📌 Selected DSA Problem(s)</li>
+        <li>💻 Code Solution (C++ / Java / Python)</li>
+        <li>🎥 Video Explanation Link (YouTube)</li>
+      </ul>
+      <p>
+        You can add your own code snippets and YouTube links anytime.
+      </p>
+    </div>
+
+    <!-- 30 DAYS GRID -->
+    <div class="days-grid">
+
+      <!-- DAY 1 -->
+      <div class="day-card">
+        <h3>Day 1: Basics of Arrays</h3>
+        <ul>
+          <li>Find Maximum & Minimum in an Array</li>
+          <li>Reverse an Array</li>
+        </ul>
+        <a href="#">💻 Code Solution Link</a><br />
+        <a href="#">🎥 Video Solution Link</a>
+      </div>
+
+      <!-- DAY 2 -->
+      <div class="day-card">
+        <h3>Day 2: Searching</h3>
+        <ul>
+          <li>Linear Search</li>
+          <li>Binary Search</li>
+        </ul>
+        <a href="#">💻 Code Solution Link</a><br />
+        <a href="#">🎥 Video Solution Link</a>
+      </div>
+
+      <!-- DAY 3 -->
+      <div class="day-card">
+        <h3>Day 3: Sorting Basics</h3>
+        <ul>
+          <li>Bubble Sort</li>
+          <li>Selection Sort</li>
+        </ul>
+        <a href="#">💻 Code Solution Link</a><br />
+        <a href="#">🎥 Video Solution Link</a>
+      </div>
+
+      <!-- DAY 4 -->
+      <div class="day-card">
+        <h3>Day 4: Advanced Sorting</h3>
+        <ul>
+          <li>Insertion Sort</li>
+          <li>Merge Sort</li>
+        </ul>
+        <a href="#">💻 Code Solution Link</a><br />
+        <a href="#">🎥 Video Solution Link</a>
+      </div>
+
+      <!-- DAY 5 -->
+      <div class="day-card">
+        <h3>Day 5: Strings Basics</h3>
+        <ul>
+          <li>Reverse a String</li>
+          <li>Palindrome Check</li>
+        </ul>
+        <a href="#">💻 Code Solution Link</a><br />
+        <a href="#">🎥 Video Solution Link</a>
+      </div>
+
+      <!-- DAYS 6–30 (SAMPLE STRUCTURE) -->
+      <!-- You can copy-paste and change content -->
+
+      <div class="day-card"><h3>Day 6: Recursion Basics</h3><ul><li>Factorial</li><li>Fibonacci</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 7: Time & Space Complexity</h3><ul><li>Big-O Notation</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 8: Linked List Basics</h3><ul><li>Insert & Delete</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 9: Doubly Linked List</h3><ul><li>Traversal</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 10: Stack</h3><ul><li>Stack using Array</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 11: Queue</h3><ul><li>Queue using Array</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 12: Deque</h3><ul><li>Operations</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 13: Hashing</h3><ul><li>Frequency Count</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 14: Sliding Window</h3><ul><li>Max Subarray Sum</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 15: Two Pointers</h3><ul><li>Pair Sum</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 16: Binary Trees</h3><ul><li>Traversals</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 17: BST</h3><ul><li>Search & Insert</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 18: Heaps</h3><ul><li>Min Heap</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 19: Greedy</h3><ul><li>Activity Selection</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 20: Backtracking</h3><ul><li>N-Queens</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 21: Graph Basics</h3><ul><li>BFS & DFS</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 22: Shortest Path</h3><ul><li>Dijkstra</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 23: MST</h3><ul><li>Prim / Kruskal</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 24: Dynamic Programming 1</h3><ul><li>Knapsack</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 25: Dynamic Programming 2</h3><ul><li>LCS</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 26: Bit Manipulation</h3><ul><li>Set Bits</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 27: Tries</h3><ul><li>Insert & Search</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 28: Segment Tree</h3><ul><li>Range Query</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 29: Practice Day</h3><ul><li>Mixed Problems</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+      <div class="day-card"><h3>Day 30: Final Revision</h3><ul><li>Interview Questions</li></ul><a href="#">💻 Code Solution Link</a><br /><a href="#">🎥 Video Solution Link</a></div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2026 DSA Manthon | Learn • Code • Crack Interviews
+  </footer>
+
+</body>
+</html>
